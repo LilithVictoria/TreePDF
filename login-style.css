@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.one{
+    background-image: linear-gradient( rgb(144, 144, 238), rgb(92, 113, 250));
+    height: 235px;
+    border: 2px;
+    border-radius: 2px;
+
+}
+
+.nav_tabs{
+    height: 0px;
+    max-width: 10%;
+    padding: 0px;
+    margin: 0px ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    text-align: center;
+    
+}
+        .nav_tabs ul{
+            list-style: none;
+            
+        }
+
+        .nav_tabs ul li{
+            padding: 1px;
+            max-width: auto;
+            
+        }
+        .nav_tabs label{
+            padding: 20px;
+            background-color: rgb(144, 144, 238) ;
+            display: block;
+            float: inline-start;
+            color: azure;
+            cursor: pointer;
+            text-decoration: solid;
+        }
+        
+.rd_tabs:hover ~ label{
+    background-color:  rgb(69, 93, 249);
+    text-align: center;
+}
+.rd_tabs:checked ~ label {
+    background-color:  rgb(69, 93, 249);
+}
+.rd_tabs{
+    display: none;
+}
+
+.titulo{
+    text-decoration: solid;
+    font-size: 65px;
+    padding: 2px;    
+}
+
+.Start{
+    text-align: center;
+    min-height: 50px;
+    text-size-adjust: 110px;
+}
+.Start input{ width: 180px;height: 25px; border-radius: 5px;}
+.Start label{ font-size: 24px; color: rgb(255, 255, 255) ;}
